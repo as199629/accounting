@@ -1,0 +1,1 @@
+import{n as a,p as s}from"./index-387d895b.js";const u=a("apiCommon",()=>{async function r(t,e,n){try{const o=await s.post("Default/Token");e.Token=o.data.data,await t(e,n)}catch(o){alert("發生錯誤!"+o)}}return{FunctionToken:r,isJSON:t=>{if(typeof t=="string")try{return JSON.parse(t),!0}catch{return!1}}}});export{u};
